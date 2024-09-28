@@ -20,6 +20,12 @@ a:hover {
     color: #6EFFC0; /* Change color on hover */
 }
 
+ul {
+    width: 100%;
+    text-align: center;
+    padding: 10px 600px;
+}
+
 /* Sidebar */
 .sidebar {
     position: fixed;
