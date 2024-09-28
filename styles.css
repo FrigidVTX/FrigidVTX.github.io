@@ -12,6 +12,14 @@ body {
     background-color: #0d1117; /* Slightly bluish background */
 }
 
+a {
+    color: white; /* Change link color */
+}
+
+a:hover {
+    color: #6EFFC0; /* Change color on hover */
+}
+
 /* Sidebar */
 .sidebar {
     position: fixed;
@@ -27,7 +35,7 @@ body {
 }
 
 .sidebar .logo {
-    width: 50px;
+    width: 75px;
     margin-bottom: 20px;
 }
 
@@ -45,7 +53,7 @@ body {
 }
 
 .sidebar nav ul li {
-    margin: 20px 0;
+    margin: 10px 0;
 }
 
 .sidebar nav ul li a {
@@ -78,7 +86,7 @@ body {
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    height: 400px;
+    height: 350px;
     position: relative;
     z-index: 0;
 }
@@ -107,7 +115,7 @@ body {
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 80px;
     font-weight: bold;
     margin-bottom: 20px;
 }
@@ -129,17 +137,21 @@ h1 {
 .project {
     margin-top: 50px;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
+    text-align: left;
 }
 
 .project .velocigon-logo {
-    width: 150px;
+    width: 260px;
     height: auto;
     margin-right: 20px; /* Position beside the text */
+    border-radius: 25%;
 }
 
 .project-details {
+    color: white;
+    max-width: 600px;
     text-align: left;
 }
 
